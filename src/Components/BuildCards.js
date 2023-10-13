@@ -1,25 +1,25 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from "react"
+import Link from "next/link"
+import Image from "next/image"
 
-const blue_gradient = "from-[#3499FF] to-[#3A3985]";
-const purple_gradient = "from-[#7D73D9] to-[#6454F0]";
-const cyan_gradient = "from-[#6399B7] to-[#50ABDE]";
+const blue_gradient = "from-[#3499FF] to-[#3A3985]"
+const purple_gradient = "from-[#7D73D9] to-[#6454F0]"
+const cyan_gradient = "from-[#6399B7] to-[#50ABDE]"
 
 const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
-  let current_grad;
+  let current_grad
   switch (gradient) {
     case "p":
-      current_grad = purple_gradient;
-      break;
+      current_grad = purple_gradient
+      break
     case "b":
-      current_grad = blue_gradient;
-      break;
+      current_grad = blue_gradient
+      break
     case "c":
-      current_grad = cyan_gradient;
-      break;
+      current_grad = cyan_gradient
+      break
     default:
-      break;
+      break
   }
   return (
     <div
@@ -40,7 +40,7 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
         <Image src={img_src} height={700} width={700} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BuildCards;
+export default BuildCards

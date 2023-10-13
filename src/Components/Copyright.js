@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Copyright = () => {
   return (
@@ -12,7 +12,7 @@ const Copyright = () => {
         Privacy Policy
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Copyright;
+export default Copyright
