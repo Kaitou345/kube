@@ -51,7 +51,7 @@ const ServicesSlider = () => {
           {services.map((item) => (
             <div
               href="/"
-              className="bg-[#2a2848] hover:bg-[#6460ab] transition-colors box-border py-10  rounded-[30px] flex flex-col items-center justify-center"
+              className="bg-[#2a2848] hover:bg-[#6460ab] transition-colors box-border py-5  rounded-[30px] flex flex-col items-center justify-center"
               key={item.id}
             >
               <div className="flex items-center justify-center">
