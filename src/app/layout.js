@@ -15,7 +15,8 @@ export default function RootLayout({ children }) {
         <video
           src="/bg.mp4"
           muted
-          autoPlay={true}
+          autoPlay
+          loop
           className="w-full h-full object-cover fixed -z-50 left-0 right-0 top-0 bottom-0"
         ></video>
         {children}
