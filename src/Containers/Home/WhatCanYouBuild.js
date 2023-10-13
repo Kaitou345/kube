@@ -3,8 +3,8 @@ import React from "react";
 
 const WhatCanYouBuild = () => {
   return (
-    <div className="bg-[#00000099] backdrop-blur-md">
-      <div className="px-28 py-20 flex flex-col gap-16 ">
+    <div className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28">
+      <div className="py-20 flex flex-col gap-16 max-w-[1360px] w-full ">
         <div className="flex flex-col gap-5">
           <h2 className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#CDA6FF] to-[#F44848]">
             What You Can Build?

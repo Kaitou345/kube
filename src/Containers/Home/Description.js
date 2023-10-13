@@ -25,9 +25,9 @@ const Description = () => {
               </Link>{" "}
             </div>
           </div>
-          <div>
+          {/* <div>
             <Image src={"/code.png"} height={500} width={500} />
-          </div>
+          </div> */}
         </div>
         <div className="flex-1">
           <div className="px-28 flex flex-col gap-20 justify-between">

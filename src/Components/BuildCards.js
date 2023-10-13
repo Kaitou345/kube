@@ -23,9 +23,9 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
   }
   return (
     <div
-      className={`px-20 py-20 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-40`}
+      className={`px-20 py-20 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-20`}
     >
-      <div className="flex flex-col gap-16 items-start justify-between">
+      <div className="flex flex-col gap-10 items-start justify-between">
         <h2 className="text-4xl font-bold ">{subheading}</h2>
         <h1 className="text-6xl font-bold ">{heading}</h1>
 
@@ -37,7 +37,7 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
         </div>
       </div>
       <div>
-        <Image src={img_src} height={600} width={600} />
+        <Image src={img_src} height={700} width={700} />
       </div>
     </div>
   );

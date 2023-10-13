@@ -4,8 +4,8 @@ import React from "react";
 
 const OurPartners = () => {
   return (
-    <div className="bg-[#00000099] backdrop-blur-md px-28 py-20">
-      <div className="bg-[#060343] px-72 py-32 rounded-[20px] flex flex-col gap-16 items-center justify-between">
+    <div className="bg-[#00000099] backdrop-blur-md px-28 py-20 flex flex-col items-center">
+      <div className="bg-[#060343] max-w-[1360px] w-full px-72 py-32 rounded-[20px] flex flex-col gap-16 items-center justify-between">
         <h1 className="text-6xl font-normal ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
             Our Partners

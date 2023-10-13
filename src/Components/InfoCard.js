@@ -30,7 +30,7 @@ const InfoCard = ({
   return (
     <div
       style={{ backgroundColor: bgColor }}
-      className="px-72 py-24 rounded-[20px] flex flex-col gap-14 items-center justify-between"
+      className="max-w-[1360px] w-full px-72 py-24 rounded-[20px] flex flex-col gap-14 items-center justify-between"
     >
       <h1 className="text-4xl font-normal uppercase">
         <span
