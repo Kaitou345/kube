@@ -19,7 +19,7 @@ const WhatCanYouBuild = () => {
       animation: tl,
       trigger: "#build_card",
       start: "top top",
-      end: "+=2000",
+      end: "+=3000",
       scrub: true,
       pin: true,
       anticipatePin: 1,
@@ -29,7 +29,7 @@ const WhatCanYouBuild = () => {
   return (
     <div
       id="build_card"
-      className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 h-[100vh]"
+      className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 h-[120vh]"
     >
       <div className="py-20 flex flex-col gap-16 max-w-[1360px] w-full ">
         <div className="flex flex-col gap-5">
