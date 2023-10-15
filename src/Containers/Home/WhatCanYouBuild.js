@@ -1,9 +1,36 @@
+"use client";
 import BuildCards from "@/Components/BuildCards";
-import React from "react";
+import React, { useEffect } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 const WhatCanYouBuild = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.defaults({ ease: "none", duration: 2 });
+    const tl = gsap.timeline();
+    tl.to("#card1", { scale: 0.9 })
+      .to("#card2", { yPercent: -100 })
+      .to("#card3", { yPercent: -100 }, "<")
+      .to("#card1", { scale: 0.8 })
+      .to("#card2", { scale: 0.9 }, "<")
+      .to("#card3", { yPercent: -200 });
+    ScrollTrigger.create({
+      animation: tl,
+      trigger: "#build_card",
+      start: "top top",
+      end: "+=2000",
+      scrub: true,
+      pin: true,
+      anticipatePin: 1,
+    });
+  }, []);
+
   return (
-    <div className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28">
+    <div
+      id="build_card"
+      className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 h-[100vh]"
+    >
       <div className="py-20 flex flex-col gap-16 max-w-[1360px] w-full ">
         <div className="flex flex-col gap-5">
           <h2 className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#CDA6FF] to-[#F44848]">
@@ -12,6 +39,7 @@ const WhatCanYouBuild = () => {
           <h1 className="text-6xl">Powering use cace accross industries</h1>
         </div>
         <BuildCards
+          id={"card1"}
           subheading={"Open Banking Risk Engine"}
           heading={"Faster access to capital, seasoned lenders"}
           desc={
@@ -21,6 +49,7 @@ const WhatCanYouBuild = () => {
           img_src="/rocket.png"
         />
         <BuildCards
+          id={"card2"}
           subheading={"Embedded Credit Operating System"}
           heading={"We help you set up the Kube API on your platform."}
           desc={
@@ -30,6 +59,7 @@ const WhatCanYouBuild = () => {
           img_src="/api.png"
         />
         <BuildCards
+          id={"card3"}
           subheading={"Digital Banking Operating System"}
           heading={"Your command center for embedded credit"}
           desc={

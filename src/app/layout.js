@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`text-white ${inter.className} `}>
+      <body className={`overflow-x-clip text-white ${inter.className} `}>
         <video
           src="/bg.mp4"
           muted

@@ -6,7 +6,7 @@ const blue_gradient = "from-[#3499FF] to-[#3A3985]";
 const purple_gradient = "from-[#7D73D9] to-[#6454F0]";
 const cyan_gradient = "from-[#6399B7] to-[#50ABDE]";
 
-const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
+const BuildCards = ({ subheading, heading, desc, gradient, img_src, id }) => {
   let current_grad;
   switch (gradient) {
     case "p":
@@ -23,6 +23,7 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src }) => {
   }
   return (
     <div
+      id={id}
       className={`px-20 py-20 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-20`}
     >
       <div className="flex flex-col gap-10 items-start justify-between">

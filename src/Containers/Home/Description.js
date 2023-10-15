@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Description = () => {
   return (
-    <div className="bg-[#00000055] flex flex-col items-center justify-center px-32 py-32">
+    <div className="bg-[#00000099] backdrop-blur-md flex flex-col items-center justify-center px-32 py-32">
       <div className="max-w-[1360px] w-full flex items-start justify-between">
         <div className="flex flex-col gap-32 flex-1">
           <div className="flex flex-col gap-10">
@@ -25,13 +25,48 @@ const Description = () => {
               </Link>{" "}
             </div>
           </div>
-          {/* <div>
+          <div>
             <Image src={"/code.png"} height={500} width={500} />
-          </div> */}
+          </div>
         </div>
-        <div className="flex-1">
-          <div className="px-28 flex flex-col gap-20 justify-between">
-            <h1 className="text-6xl">Demographic Profiling</h1>
+        <div className="flex-1 flex flex-col gap-16">
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
+            <p className="text-3xl leading-[1.2] font-light">
+              Build customer credit profiles and comprehensive customer
+              background details.
+            </p>
+          </div>
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
+            <p className="text-3xl leading-[1.2] font-light">
+              Build customer credit profiles and comprehensive customer
+              background details.
+            </p>
+          </div>
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
+            <p className="text-3xl leading-[1.2] font-light">
+              Build customer credit profiles and comprehensive customer
+              background details.
+            </p>
+          </div>
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
+            <p className="text-3xl leading-[1.2] font-light">
+              Build customer credit profiles and comprehensive customer
+              background details.
+            </p>
+          </div>
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
+            <p className="text-3xl leading-[1.2] font-light">
+              Build customer credit profiles and comprehensive customer
+              background details.
+            </p>
+          </div>
+          <div className="px-28 flex flex-col gap-5 justify-between">
+            <h1 className="text-4xl">Demographic Profiling</h1>
             <p className="text-3xl leading-[1.2] font-light">
               Build customer credit profiles and comprehensive customer
               background details.

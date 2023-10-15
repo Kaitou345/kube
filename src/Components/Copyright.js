@@ -2,7 +2,7 @@ import React from "react";
 
 const Copyright = () => {
   return (
-    <div className="flex p-10 justify-center items-center bg-[#00000099]">
+    <div className="bg-[#00000099] backdrop-blur-md flex p-10 justify-center items-center ">
       Copyright © {new Date().getFullYear()}. Kube |&nbsp;
       <a href="http://" target="_blank" rel="noopener noreferrer">
         Terms of Service
