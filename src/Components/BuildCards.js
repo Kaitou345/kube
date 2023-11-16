@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const blue_gradient = "from-[#3499FF] to-[#3A3985]";
+const blue_gradient = "from-[#3499FF] to-[#3499FF]";
 const purple_gradient = "from-[#7D73D9] to-[#6454F0]";
 const cyan_gradient = "from-[#6399B7] to-[#50ABDE]";
 
@@ -24,15 +24,15 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src, id }) => {
   return (
     <div
       id={id}
-      className={`px-20 py-20 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-20`}
+      className={`px-14 py-14 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-20`}
     >
       <div className="flex flex-col gap-10 items-start justify-between">
-        <h2 className="text-4xl font-bold ">{subheading}</h2>
-        <h1 className="text-6xl font-bold ">{heading}</h1>
+        <h2 className="text-2xl font-bold ">{subheading}</h2>
+        <h1 className="text-4xl font-bold ">{heading}</h1>
 
-        <p className="text-3xl text-left font-light leading-[1.4]">{desc}</p>
+        <p className="text-xl text-left font-light leading-[1.4]">{desc}</p>
         <div>
-          <Link href="/" className="text-xl bg-white text-black px-10 py-3">
+          <Link href="/" className="text- bg-white text-black px-10 py-3">
             Learn More
           </Link>
         </div>

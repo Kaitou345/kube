@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaArrowRight } from "react-icons/fa6";
 
 const purple_gradient = "from-[#9747FF] to-[#F44848]";
 const blue_gradient = "from-[#00AED4] to-[#85F8C1]";
@@ -28,21 +29,21 @@ const InfoCard = ({
       break;
   }
   return (
-    <div
-      style={{ backgroundColor: bgColor }}
-      className="max-w-[1360px] w-full px-32 py-24 rounded-[20px] flex flex-col gap-14 items-center justify-between"
-    >
-      <h1 className="text-4xl font-normal uppercase">
-        <span
-          className={`text-transparent bg-clip-text bg-gradient-to-r ${current_grad}`}
-        >
-          {title}
-        </span>
-      </h1>
-      <p className="text-5xl font-semibold text-center leading-[1.2]">
-        {subtitle_first} <br /> {subtitle_second}
-      </p>
-      <p className="text-4xl text-center font-light leading-[1.2]">{desc}</p>
+    <div className="bg-white rounded-[15px] text-black w-[400px] flex flex-col gap-3 p-6 relative justify-between">
+      <div className="absolute -z-10 left-2 top-2 rounded-[15px] w-full h-full bg-purple-700"></div>
+      <h2>{title}</h2>
+      <div>
+        <h1 className="text-2xl font-bold">{subtitle_first}</h1>
+        <h1 className="text-2xl font-bold">{subtitle_second}</h1>
+      </div>
+      <p>{desc}</p>
+
+      <Link
+        className="font-bold text-purple-500 flex items-center justify-left gap-5"
+        href={"#"}
+      >
+        Learn More <FaArrowRight size={20} />
+      </Link>
     </div>
   );
 };

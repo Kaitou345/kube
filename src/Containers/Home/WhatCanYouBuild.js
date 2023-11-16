@@ -10,9 +10,9 @@ const WhatCanYouBuild = () => {
     gsap.defaults({ ease: "none", duration: 2 });
     const tl = gsap.timeline();
     tl.to("#card1", { scale: 0.9 })
-      .to("#card2", { yPercent: -100 })
+      .to("#card2", { yPercent: -100 }, "<")
       .to("#card3", { yPercent: -100 }, "<")
-      .to("#card1", { scale: 0.8 })
+      .to("#card1", { scale: 0.8 }, "<")
       .to("#card2", { scale: 0.9 }, "<")
       .to("#card3", { yPercent: -200 });
     ScrollTrigger.create({
@@ -22,6 +22,7 @@ const WhatCanYouBuild = () => {
       end: "+=3000",
       scrub: true,
       pin: true,
+
       anticipatePin: 1,
     });
   }, []);
@@ -32,12 +33,6 @@ const WhatCanYouBuild = () => {
       className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 h-[120vh]"
     >
       <div className="py-20 flex flex-col gap-16 max-w-[1360px] w-full ">
-        <div className="flex flex-col gap-5">
-          <h2 className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#CDA6FF] to-[#F44848]">
-            What You Can Build?
-          </h2>
-          <h1 className="text-6xl">Powering use cace accross industries</h1>
-        </div>
         <BuildCards
           id={"card1"}
           subheading={"Open Banking Risk Engine"}

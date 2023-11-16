@@ -12,7 +12,19 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link className="text-xl bg-[#6460ab] px-10 py-3" href="/">
+          <Link className="text-md px-10 py-3" href="/">
+            Solutions
+          </Link>
+
+          <Link className="text-md px-10 py-3" href="/">
+            Kube Score
+          </Link>
+
+          <Link className="text-md px-10 py-3" href="/">
+            Company
+          </Link>
+
+          <Link className="text-xl mx-5 bg-[#6460ab] px-10 py-3" href="/">
             Contact us
           </Link>
         </div>
