@@ -12,20 +12,23 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link className="text-md px-10 py-3" href="/">
+          <Link className="text-md px-10 py-3" href="#solutions">
             Solutions
           </Link>
 
-          <Link className="text-md px-10 py-3" href="/">
+          <Link className="text-md px-10 py-3" href="#score">
             Kube Score
           </Link>
 
-          <Link className="text-md px-10 py-3" href="/">
+          <Link className="text-md px-10 py-3" href="#company">
             Company
           </Link>
 
-          <Link className="text-xl mx-5 bg-[#6460ab] px-10 py-3" href="/">
-            Contact us
+          <Link
+            className="text-md mx-5 bg-[#6666FF] px-8 font-light rounded-md py-3"
+            href="/"
+          >
+            Partner with us
           </Link>
         </div>
       </div>

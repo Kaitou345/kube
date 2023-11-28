@@ -49,11 +49,11 @@ const BuiltFor = () => {
         <div className="flex justify-start items-start gap-10">
           <div className="flex items-start justify-between ">
             <div className="flex justify-between gap-5">
-              <h1 className="bg-white text-black px-5 py-4 text-4xl font-semibold">
+              <h1 className="bg-white rounded-2xl text-black px-5 py-4 text-4xl font-semibold">
                 Built
               </h1>
 
-              <h1 className="bg-white rounded-2xl text-black px-5 py-4 text-4xl font-semibold">
+              <h1 className="bg-white rounded-2xl  text-black px-5 py-4 text-4xl font-semibold">
                 For
               </h1>
             </div>
@@ -65,19 +65,19 @@ const BuiltFor = () => {
             </div>
             <div
               id="text1"
-              className="absolute top-0 bg-[#E8FBFF] rounded-lg text-[#00AED4] px-5 py-4 text-4xl font-semibold"
+              className="absolute top-0 bg-[#E8FBFF] rounded-2xl text-[#00AED4] px-5 py-4 text-4xl font-semibold"
             >
-              <h1>Reduce risk</h1>
+              <h1>Reduced risk</h1>
             </div>
             <div
               id="text2"
-              className="absolute top-0 bg-[#E9E8FF]    text-[#9747FF] px-5 py-4 text-4xl font-semibold"
+              className="absolute top-0 bg-[#E9E8FF]   rounded-2xl text-[#9747FF] px-5 py-4 text-4xl font-semibold"
             >
               <h1>Faster decisions</h1>
             </div>
             <div
               id="text3"
-              className="absolute top-0 bg-[#E8F1FF]  rounded-r-lg text-[#4791FF] px-5 py-4 text-4xl font-semibold"
+              className="absolute top-0 bg-[#E8F1FF]  rounded-2xl text-[#4791FF] px-5 py-4 text-4xl font-semibold"
             >
               <h1>Boost conversion rates</h1>
             </div>

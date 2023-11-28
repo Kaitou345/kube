@@ -29,7 +29,7 @@ const InfoCard = ({
       break;
   }
   return (
-    <div className="bg-white rounded-[15px] text-black w-[400px] flex flex-col gap-3 p-6 relative justify-between">
+    <div className="bg-white rounded-[15px] text-black  w-[400px] flex flex-col gap-3 p-6 relative justify-between">
       <div className="absolute -z-10 left-2 top-2 rounded-[15px] w-full h-full bg-purple-700"></div>
       <h2>{title}</h2>
       <div>

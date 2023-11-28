@@ -4,7 +4,7 @@ import React from "react";
 const InfoCards = () => {
   return (
     <div className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 py-10">
-      <div className="flex  gap-10">
+      <div className="flex  gap-10 ">
         <InfoCard
           subtitle_first={"No fintech experience?"}
           subtitle_second={"Don’t worry. We will take care"}

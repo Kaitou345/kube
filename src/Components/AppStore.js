@@ -8,7 +8,7 @@ const AppStoreButton = () => {
         <Image src={"/apple.png"} width={30} height={30} />
       </div>
       <div>
-        <p className="text-gray-400 text-sm">Download on the</p>
+        <p className="text-gray-400 text-sm">Coming soon on</p>
         <h1 className="text-lg">App Store</h1>
       </div>
     </a>

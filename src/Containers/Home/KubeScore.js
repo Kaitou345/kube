@@ -3,7 +3,7 @@ import React from "react";
 
 const KubeScore = () => {
   return (
-    <div className="bg-[#0A001E] p-14 z-50">
+    <div id="score" className="bg-[#0A001E] p-14 z-50">
       <div className="max-w-[1100px] mx-auto border-solid border-l-2 border-white px-20 flex flex-col gap-14">
         <h1 className=" text-4xl leading-[1.25]">
           The trail of insights and delving <br /> into digital footprints
@@ -28,9 +28,8 @@ const KubeScore = () => {
             </div>
             <h2 className="font-semibold text-2xl">Data Categories</h2>
             <p className="font-light text-sm">
-              Harness cash flow underwriting for precise credit default risk
-              prediction and scoring of consumers with missing or limited credit
-              histories.
+              Organize, categorize, and enhance unstructured transaction data to
+              produce well-organized, simplified, and precise account records.
             </p>
           </div>
           <div className="flex flex-col justify-between items-start gap-5">

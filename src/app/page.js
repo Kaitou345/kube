@@ -7,6 +7,7 @@ import Download from "@/Containers/Home/Download";
 import Hero from "@/Containers/Home/Hero";
 import HowItWorks from "@/Containers/Home/HowItWorks";
 import InfoCards from "@/Containers/Home/InfoCards";
+import Interested from "@/Containers/Home/Interested";
 import KubeScore from "@/Containers/Home/KubeScore";
 import LaunchAndScale from "@/Containers/Home/LaunchAndScale";
 import LetsBuild from "@/Containers/Home/LetsBuild";
@@ -17,7 +18,7 @@ import WhatCanYouBuild from "@/Containers/Home/WhatCanYouBuild";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" scroll-smooth">
       <Navbar />
       <Hero />
       {/* <LetsBuild /> */}
@@ -31,6 +32,7 @@ export default function Home() {
       <OurPartners />
       <Download />
       {/* <LaunchAndScale /> */}
+      <Interested />
       <Contact />
       <Copyright />
     </main>

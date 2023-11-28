@@ -1,79 +1,82 @@
+import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-[#00000099] backdrop-blur-md">
-      <div className="px-28 py-20 flex flex-col items-center gap-14 ">
-        <div className="max-w-[1100px] w-full px-24 py-20 rounded-[15px] bg-[#5A33F8] flex flex-col gap-8 items-start justify-between">
-          <h1 className="text-4xl">Want to make your idea a reality?</h1>
-          <p className="text-sm">
-            Office address: Level 39, One Canada Square, Canary Wharf, London
-            E14 5AB, United Kingdom
-          </p>
-          <form
-            action=""
-            method="post"
-            className="flex flex-col items-start gap-4 text-xl"
-          >
-            <div>
-              <label htmlFor="">My name is </label>
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="first and Last name"
-                className="bg-[#6666FF] px-4 py-1 focus:outline-none w-[250px] focus:border-b-2 border-white"
-              />{" "}
-              <label htmlFor="">from </label>
-              <input
-                type="text"
-                name=""
-                placeholder="company name"
-                id=""
-                className="bg-[#6666FF] px-4 py-1 focus:outline-none w-[200px] focus:border-b-2 border-white"
-              />
-            </div>
-            <div className="flex gap-5 items-center">
-              <label htmlFor="">I want to talk about a </label>
-              <div className="flex gap-3">
-                <div className="cursor-pointer border-2 rounded-xl border-white p-2 text-sm">
-                  Solution
-                </div>
-                <div className="cursor-pointer border-2 rounded-xl border-white p-2 text-sm">
-                  Current account
-                </div>
-                <div className="cursor-pointer border-2 rounded-xl border-white p-2 text-sm">
-                  Company
-                </div>
-              </div>
-            </div>
-            <div>
-              <label htmlFor="">Please contact me at </label>
-              <input
-                type="email"
-                placeholder="name@example.com"
-                className="bg-[#6666FF] px-4 py-1 focus:outline-none w-[250px] focus:border-b-2 border-white"
-              />{" "}
-              <label htmlFor="">or </label>
-              <input
-                type="text"
-                name=""
-                placeholder="+44 000 00 000 00"
-                id=""
-                className="bg-[#6666FF] px-4 py-1 focus:outline-none w-[250px] focus:border-b-2 border-white"
-              />
-            </div>
-            <button type="submit" className="bg-black px-6 py-3 rounded-lg">
-              Submit
-            </button>
-          </form>
-          <p className="text-sm">
-            By continuing, you acknowledge reading and agree to the{" "}
-            <a href="#" className="underline font-semibold">
-              KUBE Privacy Policy
-            </a>
-          </p>
+    <div className="bg-[#121212] py-20">
+      <div className="flex flex-col items-center justify-between gap-8">
+        <div>
+          <Image src="/interested.png" width={100} height={100} />
         </div>
+        <div className="flex flex-col items-center justify-between gap-3">
+          <h1 className="uppercase text-2xl text-center font-semibold">
+            Leverage the power of open banking data to make more informed credit
+            decisions.
+          </h1>
+          <h2 className="text-xl text-center opacity-60">
+            You will get a response within 24 hours. We will explain in details
+            how we can help you .
+          </h2>
+        </div>
+        <form
+          className="flex flex-col gap-5 items-left justify-between "
+          action=""
+        >
+          <div className="flex flex-col">
+            <label className="text-gray-300" htmlFor="name">
+              Name
+            </label>
+            <input
+              className="w-[400px] h-[50px] focus:outline-none bg-transparent text-white  border-b-2 border-gray-500"
+              type="text"
+              name="name"
+              id="name"
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <label className="text-gray-300" htmlFor="email">
+              Email Address
+            </label>
+            <input
+              className="w-[400px] h-[50px] focus:outline-none bg-transparent text-white  border-b-2 border-gray-500"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <label className="text-gray-300" htmlFor="query">
+              How Can We Help?
+            </label>
+            <input
+              className="w-[400px] h-[50px] focus:outline-none bg-transparent text-white  border-b-2 border-gray-500"
+              type="text"
+              name="query"
+              id="query"
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <label className="text-gray-300" htmlFor="source">
+              How Do You Hear About Us ?{" "}
+            </label>
+            <input
+              className="w-[400px] h-[50px] focus:outline-none bg-transparent text-white  border-b-2 border-gray-500"
+              type="text"
+              name="source"
+              id="source"
+            />
+          </div>
+          <div className="text-right mt-5">
+            <button className="text-xl" type="submit">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
+                Send {"->"}
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

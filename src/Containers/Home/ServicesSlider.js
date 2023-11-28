@@ -42,7 +42,10 @@ const ServicesSlider = () => {
   const slider = useRef(null);
 
   return (
-    <div className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 py-20">
+    <div
+      id="solutions"
+      className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 py-20"
+    >
       <div className="  max-w-[1360px] w-full">
         <h1 className="font-semibold text-5xl py-20">
           Industries our SaaS customers serve:
