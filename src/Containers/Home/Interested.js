@@ -4,8 +4,8 @@ import React from "react";
 
 const Interested = () => {
   return (
-    <div className="bg-[#00000099] backdrop-blur-md px-28 py-20 flex flex-col items-center">
-      <div className="bg-gradient-to-br from-[#0A001E] to-[#171123] h-[100px] w-full rounded-t-[20px]"></div>
+    <div className="bg-[#00000099] backdrop-blur-md px-28 py-20 pb-5 flex flex-col items-center">
+      <div className="bg-gradient-to-br from-[#0A001E] to-[#171123] h-[100px] w-full max-w-[1360px] rounded-t-[20px]"></div>
       <div className="max-w-[1360px] w-full px-72 pb-20 rounded-b-[20px] flex flex-col gap-10 items-center justify-between bg-gradient-to-br from-[#210438] to-[#0C0215] relative">
         <div className="flex flex-col gap-16 justify-between items-center relative -top-[50px]">
           <div className="">

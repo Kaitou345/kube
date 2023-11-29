@@ -33,8 +33,8 @@ export default function Home() {
       <Download />
       {/* <LaunchAndScale /> */}
       <Interested />
-      <Contact />
       <Copyright />
+      {/* <Contact /> */}
     </main>
   );
 }
