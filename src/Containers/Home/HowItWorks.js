@@ -61,7 +61,9 @@ const B2B = () => {
           onClick={() => setCurrentImg("/code.png")}
         >
           <h2 className="text-2xl font-semibold">Get the Widget</h2>
-          <h3 className="text-lg">Deploy a lightweight SDK within minutes.</h3>
+          <h3 className="text-lg text-left">
+            Deploy a lightweight SDK within minutes.
+          </h3>
         </button>
         <button
           className={`${
@@ -70,7 +72,7 @@ const B2B = () => {
           onClick={() => setCurrentImg("/integrate.png")}
         >
           <h2 className="text-2xl font-semibold">Integrate into Your App</h2>
-          <h3 className="text-lg">
+          <h3 className="text-lg text-left">
             Initialize the Kube SDK within your application.{" "}
           </h3>
         </button>{" "}
@@ -81,7 +83,7 @@ const B2B = () => {
           onClick={() => setCurrentImg("/build_scoring.png")}
         >
           <h2 className="text-2xl font-semibold">Build Scoring</h2>
-          <h3 className="text-lg">
+          <h3 className="text-lg text-left">
             Instant eligibility checks and system-generated credit scores{" "}
           </h3>
         </button>
