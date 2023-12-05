@@ -45,7 +45,17 @@ const Contact = () => {
               id="email"
             />
           </div>
-
+          <div className="flex flex-col">
+            <label className="text-gray-300" htmlFor="company_name">
+              Name of the company
+            </label>
+            <input
+              className="w-[400px] h-[50px] focus:outline-none bg-transparent text-white  border-b-2 border-gray-500"
+              type="text"
+              name="company_name"
+              id="company_name"
+            />
+          </div>
           <div className="flex flex-col">
             <label className="text-gray-300" htmlFor="query">
               How Can We Help?

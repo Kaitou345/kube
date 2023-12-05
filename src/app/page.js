@@ -28,13 +28,13 @@ export default function Home() {
       {/* <Description /> */}
       <HowItWorks />
       <InfoCards />
-      <ServicesSlider />
+      {/* <ServicesSlider /> */}
       <OurPartners />
       <Download />
       {/* <LaunchAndScale /> */}
       <Interested />
       <Copyright />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }
