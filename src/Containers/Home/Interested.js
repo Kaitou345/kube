@@ -18,6 +18,9 @@ const Interested = () => {
             </span>
             ?
           </h1>
+          <p className="text-lg">
+            Explore our solution, or do you want us to do it for you?
+          </p>
           <Link
             className="text-xl mx-5 bg-[#6666FF] px-8 font-light rounded-xl py-3"
             href={"#"}

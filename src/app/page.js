@@ -1,6 +1,8 @@
+import BuildCards from "@/Components/BuildCards";
 import Copyright from "@/Components/Copyright";
 import Navbar from "@/Components/Navbar";
 import BuiltFor from "@/Containers/Home/BuiltFor";
+import Connect from "@/Containers/Home/Connect";
 import Contact from "@/Containers/Home/Contact";
 import Description from "@/Containers/Home/Description";
 import Download from "@/Containers/Home/Download";
@@ -23,8 +25,9 @@ export default function Home() {
       <Hero />
       {/* <LetsBuild /> */}
       <BuiltFor />
-      {/* <WhatCanYouBuild /> */}
+      <WhatCanYouBuild />
       <KubeScore />
+      <Connect />
       {/* <Description /> */}
       <HowItWorks />
       <InfoCards />
@@ -33,8 +36,8 @@ export default function Home() {
       <Download />
       {/* <LaunchAndScale /> */}
       <Interested />
-      <Copyright />
       <Contact />
+      <Copyright />
     </main>
   );
 }

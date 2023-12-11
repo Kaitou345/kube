@@ -19,7 +19,7 @@ const WhatCanYouBuild = () => {
       animation: tl,
       trigger: "#build_card",
       start: "top top",
-      end: "+=3000",
+      end: "+=4000",
       scrub: true,
       pin: true,
 
@@ -32,7 +32,7 @@ const WhatCanYouBuild = () => {
       id="build_card"
       className="bg-[#00000099] backdrop-blur-md flex flex-col items-center px-28 h-[120vh]"
     >
-      <div className="py-20 flex flex-col gap-16 max-w-[1360px] w-full ">
+      <div className="py-20 flex flex-col gap-16 max-w-[800px] w-full ">
         <BuildCards
           id={"card1"}
           subheading={"Open Banking Risk Engine"}

@@ -12,10 +12,9 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link className="text-md px-10 py-3" href="#solutions">
-            Solutions
+          <Link className="text-md px-10 py-3" href="/about">
+            About
           </Link>
-
           <Link className="text-md px-10 py-3" href="#score">
             Kube Score
           </Link>

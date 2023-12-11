@@ -24,15 +24,19 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src, id }) => {
   return (
     <div
       id={id}
-      className={`px-14 py-14 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-20`}
+      className={`px-14 py-14 rounded-[30px] bg-gradient-to-r ${current_grad} flex justify-between items-center gap-16`}
     >
-      <div className="flex flex-col gap-10 items-start justify-between">
-        <h2 className="text-2xl font-bold ">{subheading}</h2>
-        <h1 className="text-4xl font-bold ">{heading}</h1>
-
-        <p className="text-xl text-left font-light leading-[1.4]">{desc}</p>
+      <div className="flex flex-col gap-5 items-start justify-between">
+        <h2 className="text-xl font-bold ">{subheading}</h2>
+        <h1 className="text-3xl font-bold ">{heading}</h1>
+        <p className="text-lg mb-5 text-left font-light leading-[1.4]">
+          {desc}
+        </p>
         <div>
-          <Link href="/" className="text- bg-white text-black px-10 py-3">
+          <Link
+            href="/"
+            className="text-md rounded-md bg-white text-black px-10 py-3"
+          >
             Learn More
           </Link>
         </div>

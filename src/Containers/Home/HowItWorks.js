@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const HowItWorks = () => {
-  const [currentTab, setCurrentTab] = useState("b2b");
+  const [currentTab, setCurrentTab] = useState("b2c");
   return (
     <div className="bg-[rgba(0,0,0,0.6)] backdrop-blur-md transition-all">
       <div className="px-28 pt-20 pb-10 flex flex-col items-center">
@@ -20,26 +20,42 @@ const HowItWorks = () => {
           <div className="flex gap-5 justify-between items-center text-2xl">
             <button
               className={`${
-                currentTab === "b2b"
-                  ? "text-[#FF47D7] py-1 border-b-4 border-[#FF47D7]"
-                  : ""
-              }`}
-              onClick={() => setCurrentTab("b2b")}
-            >
-              B2B
-            </button>
-            <button
-              className={`${
                 currentTab === "b2c"
                   ? "text-[#FF47D7] py-1 border-b-4 border-[#FF47D7]"
                   : ""
               }`}
               onClick={() => setCurrentTab("b2c")}
             >
-              B2C
+              For SMBs
+            </button>
+            <button
+              className={`${
+                currentTab === "b2b"
+                  ? "text-[#FF47D7] py-1 border-b-4 border-[#FF47D7]"
+                  : ""
+              }`}
+              onClick={() => setCurrentTab("b2b")}
+            >
+              For Banks and Fintech{" "}
+            </button>
+            <button
+              className={`${
+                currentTab === "saas"
+                  ? "text-[#FF47D7] py-1 border-b-4 border-[#FF47D7]"
+                  : ""
+              }`}
+              onClick={() => setCurrentTab("saas")}
+            >
+              For SaaS
             </button>
           </div>
-          {currentTab === "b2b" ? <B2B /> : <B2C />}
+          {currentTab === "b2b" ? (
+            <B2B />
+          ) : currentTab === "b2c" ? (
+            <B2C />
+          ) : (
+            <Saas />
+          )}
         </div>
       </div>
     </div>
@@ -51,7 +67,7 @@ const B2B = () => {
   return (
     <div className="flex gap-3 justify-between w-full">
       <div className="flex flex-col gap-3">
-        <h2 className="text-2xl mb-5">
+        <h2 className="text-3xl mb-5">
           Seamless Integration in 3 Simple Steps
         </h2>
         <button
@@ -131,4 +147,52 @@ const B2C = () => {
   );
 };
 
+const Saas = () => {
+  const [currentImg, setCurrentImg] = useState("/saas_banks.png");
+  return (
+    <div className="flex gap-3 justify-between w-full">
+      <div className="flex flex-col gap-3">
+        <button
+          className={`${
+            currentImg === "/saas_banks.png" ? "bg-[#37355e]" : ""
+          } flex flex-col gap-4 px-10 py-5 rounded-lg`}
+          onClick={() => setCurrentImg("/saas_banks.png")}
+        >
+          <h2 className="text-2xl font-semibold">Banks & Lenders</h2>
+          <h3 className="text-lg text-left">
+            A cutting edge open banking and payments platform in the cloud{" "}
+          </h3>
+        </button>
+        <button
+          className={`${
+            currentImg === "/saas_digital_platforms.png" ? "bg-[#37355e]" : ""
+          } flex flex-col gap-4 px-10 py-5 rounded-lg`}
+          onClick={() => setCurrentImg("/saas_digital_platforms.png")}
+        >
+          <h2 className="text-2xl font-semibold">Digital Platforms</h2>
+          <h3 className="text-lg text-left">
+            Get everything you need to become the bank your customers love.{" "}
+          </h3>
+        </button>{" "}
+        <button
+          className={`${
+            currentImg === "/saas_embedded.png" ? "bg-[#37355e]" : ""
+          } flex flex-col gap-4 px-10 py-5 rounded-lg`}
+          onClick={() => setCurrentImg("/saas_embedded.png")}
+        >
+          <h2 className="text-2xl font-semibold">
+            Embedded Credit Operating System
+          </h2>
+          <h3 className="text-lg text-left">
+            Enhance risk decisions by expediting the collection, verification,
+            and scoring of your customers' financial data.{" "}
+          </h3>
+        </button>
+      </div>
+      <div>
+        <Image src={currentImg} height={500} width={500} objectFit="contain" />
+      </div>
+    </div>
+  );
+};
 export default HowItWorks;
