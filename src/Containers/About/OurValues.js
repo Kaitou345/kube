@@ -4,7 +4,7 @@ import React from "react";
 
 const OurValues = () => {
   return (
-    <div className="bg-[#0A001E] p-14 ">
+    <div className="bg-[url('/values_bg.png')] p-14 ">
       <div className="max-w-[900px] mx-auto  my-20">
         <h1 className="text-center text-3xl font-semibold mb-5">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
