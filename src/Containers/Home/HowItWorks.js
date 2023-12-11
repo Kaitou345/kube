@@ -6,7 +6,10 @@ import React, { useState } from "react";
 const HowItWorks = () => {
   const [currentTab, setCurrentTab] = useState("b2c");
   return (
-    <div className="bg-[rgba(0,0,0,0.6)] backdrop-blur-md transition-all">
+    <div
+      id="solutions"
+      className="bg-[rgba(0,0,0,0.6)] backdrop-blur-md transition-all"
+    >
       <div className="px-28 pt-20 pb-10 flex flex-col items-center">
         <div className="px-14 py-16 max-w-[1360px] w-full rounded-[15px] bg-[#2a2848] flex flex-col gap-10 items-start justify-between">
           <div className="flex flex-col gap-5">
