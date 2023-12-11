@@ -8,7 +8,7 @@ const GooglePlayButton = () => {
         <Image src={"/google.png"} width={30} height={30} />
       </div>
       <div>
-        <p className="text-gray-400 text-sm">Get it on</p>
+        <p className=" text-sm text-red-300">Coming soon on</p>
         <h1 className="text-lg">Google Play</h1>
       </div>
     </div>

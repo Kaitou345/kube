@@ -10,8 +10,8 @@ const Hero = () => {
         </div>
         <div>
           <p className="font-light text-4xl leading-[1.25]">
-            Leverage the power of open banking data <br />
-            to make more informed credit decisions.
+            Open Banking Risk Insight platform for <br /> Lenders and Lending
+            Platfrom for for SMBs
           </p>
         </div>
         {/* <div className="animate-bounce">

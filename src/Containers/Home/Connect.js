@@ -5,7 +5,7 @@ const Connect = () => {
   return (
     <div id="score" className="bg-black p-32 z-50">
       <div className="max-w-[1100px] mx-auto  px-20 flex flex-col gap-8 justify-center items-center">
-        <h2 className="uppercase text-gray-400">Kube Money IS A MARKETPLACE</h2>
+        {/* <h2 className="uppercase text-gray-400">Kube Money IS A MARKETPLACE</h2> */}
         <h1 className="text-4xl font-semibold">
           We Connect&nbsp;
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">

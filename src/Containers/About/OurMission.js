@@ -3,7 +3,7 @@ import React from "react";
 
 const OurMission = () => {
   return (
-    <div className="bg-[#0A001E] p-14 z-50">
+    <div className="bg-gradient-to-br from-[#18171A] to-[#000000] p-14 z-50">
       <div className="max-w-[900px] mx-auto flex flex-col gap-14">
         <div className="flex flex-1 justify-between gap-20">
           <div className="flex flex-col justify-between items-start gap-10">

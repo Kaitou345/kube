@@ -46,7 +46,7 @@ const WhatCanYouBuild = () => {
         <BuildCards
           id={"card2"}
           subheading={"Embedded Credit Operating System"}
-          heading={"We help you set up the Kube API on your platform."}
+          heading={"Embedded Lending API for Digital Platforms."}
           desc={
             "Your sellers apply for a loan directly on your platform. Provide sellers with the right financing at the right time. The loan is approved by our lending and the seller receives their money."
           }
@@ -55,8 +55,10 @@ const WhatCanYouBuild = () => {
         />
         <BuildCards
           id={"card3"}
-          subheading={"Digital Banking Operating System"}
-          heading={"Your command center for embedded credit"}
+          subheading={"Lending Platform for SMBs"}
+          heading={
+            "Connect to our 100 plus lending partners and have quick access to finance"
+          }
           desc={
             "KUBE offers the tools required for the entire process of creating credit products, from application to decision-making and underwriting, which can be embedded."
           }

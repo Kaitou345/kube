@@ -21,7 +21,7 @@ const InfoCards = () => {
           desc={
             "Embedded credit: Your new growth-driver Drive growth, boost your bottom-line, and delight Your customers with the capital they need to thrive. Straight from your products from your product experience."
           }
-          title="FOR SAAS COMPANIES"
+          title="For SaaS Companies"
           bgColor={"#032443"}
           gradient={"b"}
         />

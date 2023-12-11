@@ -61,31 +61,31 @@ const BuiltFor = () => {
           <BsArrowRightCircle size={60} />
           <div className="relative">
             <div className="opacity-0 bg-[#E9E8FF] text-[#9747FF] px-5 py-4 text-4xl font-semibold">
-              <h1>Boost conversion rates</h1>
+              <h1>High Conversion Rates</h1>
             </div>
             <div
               id="text1"
               className="absolute top-0 bg-[#E8FBFF] rounded-2xl text-[#00AED4] px-5 py-4 text-4xl font-semibold"
             >
-              <h1>Reduced risk</h1>
+              <h1>Reduced Risk</h1>
             </div>
             <div
               id="text2"
               className="absolute top-0 bg-[#E9E8FF]   rounded-2xl text-[#9747FF] px-5 py-4 text-4xl font-semibold"
             >
-              <h1>Faster decisions</h1>
+              <h1>Faster Decisions</h1>
             </div>
             <div
               id="text3"
               className="absolute top-0 bg-[#E8F1FF]  rounded-2xl text-[#4791FF] px-5 py-4 text-4xl font-semibold"
             >
-              <h1>Boost conversion rates</h1>
+              <h1>High Conversion Rates</h1>
             </div>
           </div>
         </div>
         <div>
           <p className="w-3/5 text-4xl">
-            Delivering real-time credit scores and automating customer
+            Delivering real-time affordability scores and automating customer
             onboarding via digital footprints.
           </p>
         </div>

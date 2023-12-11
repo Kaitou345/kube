@@ -9,9 +9,9 @@ const Contact = () => {
           <Image src="/interested.png" width={100} height={100} />
         </div>
         <div className="flex flex-col items-center justify-between gap-3">
-          <h1 className="uppercase text-2xl text-center font-semibold">
-            Leverage the power of open banking data to make more informed credit
-            decisions.
+          <h1 className=" text-2xl text-center font-semibold">
+            Leverage The Power Of Open Banking Data To Make More Informed Credit
+            Decisions.
           </h1>
           <h2 className="text-xl text-center opacity-60">
             You will get a response within 24 hours. We will explain in details

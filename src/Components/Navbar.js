@@ -19,7 +19,7 @@ const Navbar = () => {
             Solutions
           </Link>
           <Link className="text-md px-10 py-3" href="/about">
-            Company
+            About
           </Link>
           <span className="text-md px-10 py-3 relative group cursor-pointer">
             Partner

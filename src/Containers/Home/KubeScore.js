@@ -6,16 +6,17 @@ const KubeScore = () => {
     <div id="score" className="bg-[#0A001E] p-14 z-50">
       <div className="max-w-[1100px] mx-auto border-solid border-l-2 border-white px-20 flex flex-col gap-14">
         <h1 className=" text-4xl leading-[1.25]">
-          The trail of insights and delving <br /> into digital footprints
+          Unleash the power of cash flow driven <br /> underwriting through open
+          banking{" "}
         </h1>
         <div className="flex gap-20 bg-[#160D27] p-10">
           <div>
             <Image src="/kubescore.png" width={1500} height={1500} />
           </div>
           <div>
-            Digital footprints are data-driven representations of a consumer’s
-            potential or ability to take a variety of actions, such as
-            creditworthiness, defaulting on payments, repaying a loan, or
+            Kube affordability score is data-driven representations of a
+            consumer’s potential or ability to take a variety of actions, such
+            as creditworthiness, defaulting on payments, repaying a loan, or
             turning a lead into a customer. Every digital interaction leaves
             behind a data trail that tells a story about the consumer’s habits,
             preferences, and behaviors. 

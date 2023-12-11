@@ -161,7 +161,7 @@ const Saas = () => {
           } flex flex-col gap-4 px-10 py-5 rounded-lg`}
           onClick={() => setCurrentImg("/saas_banks.png")}
         >
-          <h2 className="text-2xl font-semibold">Banks & Lenders</h2>
+          <h2 className="text-2xl font-semibold">Embedded lending API</h2>
           <h3 className="text-lg text-left">
             A cutting edge open banking and payments platform in the cloud{" "}
           </h3>
@@ -172,7 +172,7 @@ const Saas = () => {
           } flex flex-col gap-4 px-10 py-5 rounded-lg`}
           onClick={() => setCurrentImg("/saas_digital_platforms.png")}
         >
-          <h2 className="text-2xl font-semibold">Digital Platforms</h2>
+          <h2 className="text-2xl font-semibold">Embedded scoring API</h2>
           <h3 className="text-lg text-left">
             Get everything you need to become the bank your customers love.{" "}
           </h3>
@@ -184,11 +184,10 @@ const Saas = () => {
           onClick={() => setCurrentImg("/saas_embedded.png")}
         >
           <h2 className="text-2xl font-semibold">
-            Embedded Credit Operating System
+            Embedded Credit Operating System{" "}
           </h2>
           <h3 className="text-lg text-left">
-            Enhance risk decisions by expediting the collection, verification,
-            and scoring of your customers' financial data.{" "}
+            Let your users have access to SMB Finance and BNPL cards{" "}
           </h3>
         </button>
       </div>

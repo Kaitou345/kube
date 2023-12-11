@@ -32,14 +32,6 @@ const BuildCards = ({ subheading, heading, desc, gradient, img_src, id }) => {
         <p className="text-lg mb-5 text-left font-light leading-[1.4]">
           {desc}
         </p>
-        <div>
-          <Link
-            href="/"
-            className="text-md rounded-md bg-white text-black px-10 py-3"
-          >
-            Learn More
-          </Link>
-        </div>
       </div>
       <div>
         <Image src={img_src} height={700} width={700} />

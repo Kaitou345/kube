@@ -28,14 +28,12 @@ const OurValues = () => {
 
 const Inclusion = () => {
   return (
-    <div className="h-[350px] w-[325px] bg-[#5C4FBB] rounded-tl-[50px] overflow-hidden p-8">
+    <div className="h-[350px] w-[325px] bg-[#5C4FBB77] rounded-tl-[50px] overflow-hidden p-8">
       <div className="flex flex-col justify-center items-center gap-5 ">
         <div>
           <Image src={"/inclusion.png"} width={50} height={50} />{" "}
         </div>
-        <h1 className="uppercase font-semibold text-2xl tracking-tighter">
-          Inclusion
-        </h1>
+        <h1 className=" font-semibold text-2xl tracking-tighter">Inclusion</h1>
         <p className="text-center">
           We stand united in our efforts to foster an inclusive and equitable
           organization that values diversity. We are committed to promoting
@@ -48,12 +46,12 @@ const Inclusion = () => {
 
 const Colab = () => {
   return (
-    <div className="h-[350px] w-[350px] bg-[#5C4FBB] rounded-t-[50px] overflow-hidden p-8">
+    <div className="h-[350px] w-[350px] bg-[#5C4FBB77] rounded-t-[50px] overflow-hidden p-8">
       <div className="flex flex-col justify-center items-center gap-5 ">
         <div>
           <Image src={"/colab.png"} width={50} height={50} />{" "}
         </div>
-        <h1 className="uppercase font-semibold text-2xl tracking-tighter">
+        <h1 className=" font-semibold text-2xl tracking-tighter">
           Collaboration
         </h1>
         <p className="text-center">
@@ -68,12 +66,12 @@ const Colab = () => {
 
 const Pragmatism = () => {
   return (
-    <div className="h-[350px] w-[325px] bg-[#5C4FBB] rounded-tr-[50px] overflow-hidden p-8">
+    <div className="h-[350px] w-[325px] bg-[#5C4FBB77] rounded-tr-[50px] overflow-hidden p-8">
       <div className="flex flex-col justify-center items-center gap-5 ">
         <div>
           <Image src={"/pragmatism.png"} width={50} height={50} />{" "}
         </div>
-        <h1 className="uppercase font-semibold text-2xl tracking-tighter">
+        <h1 className=" font-semibold text-2xl tracking-tighter">
           Pragmatism{" "}
         </h1>
         <p className="text-center">

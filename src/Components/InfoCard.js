@@ -31,7 +31,11 @@ const InfoCard = ({
   return (
     <div className="bg-white rounded-[15px] text-black  w-[400px] flex flex-col gap-3 p-6 relative justify-between">
       <div className="absolute -z-10 left-2 top-2 rounded-[15px] w-full h-full bg-purple-700"></div>
-      <h2>{title}</h2>
+      <h2>
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
+          {title}
+        </span>
+      </h2>
       <div>
         <h1 className="text-2xl font-bold">{subtitle_first}</h1>
         <h1 className="text-2xl font-bold">{subtitle_second}</h1>
@@ -41,9 +45,7 @@ const InfoCard = ({
       <Link
         className="font-bold text-purple-500 flex items-center justify-left gap-5"
         href={"#"}
-      >
-        Learn More <FaArrowRight size={20} />
-      </Link>
+      ></Link>
     </div>
   );
 };
