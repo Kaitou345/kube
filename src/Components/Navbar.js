@@ -58,10 +58,10 @@ const Partner = () => {
   return (
     <div className="absolute delay-700 transition-all hidden group-hover:flex top-[45px] -left-[650px] bg-[#000000] w-[1000px] h-[200px] justify-between items-center  gap-5 p-10 ">
       <div className="">
-        <h2 className="uppercase font-semibold">
-          Providing innovative <br />
-          and top-notch solutions and services to the financial services
-          industry{" "}
+        <h2 className=" font-semibold">
+          Providing Innovative <br />
+          and Top-notch Solutions and Services to the Financial Services
+          Industry{" "}
         </h2>
       </div>
       <div className="">
