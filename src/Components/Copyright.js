@@ -14,11 +14,19 @@ const Copyright = () => {
         <BsLinkedin />
       </a>{" "}
       |&nbsp;
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://kube.money/privacy-policy/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Terms of Service
       </a>
       &nbsp; -&nbsp;
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://kube.money/privacy-policy/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Privacy Policy
       </a>
     </div>
