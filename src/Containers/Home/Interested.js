@@ -23,7 +23,7 @@ const Interested = () => {
           </p>
           <Link
             className="text-xl mx-5 bg-[#6666FF] px-8 font-light rounded-xl py-3"
-            href={"#"}
+            href={"#partner"}
           >
             Get Started
           </Link>

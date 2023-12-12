@@ -4,7 +4,7 @@ import React from "react";
 
 const OurValues = () => {
   return (
-    <div className="bg-[url('/values_bg.png')] bg-no-repeat bg-cover p-14 ">
+    <div className="bg-[url('/values_bg.png')] bg-no-repeat bg-cover p-20 ">
       <div className="max-w-[900px] mx-auto  my-20">
         <h1 className="text-center text-3xl font-semibold mb-5">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
@@ -76,7 +76,7 @@ const Pragmatism = () => {
         </h1>
         <p className="text-center">
           We adopt a practical approach in all our endeavors, focusing on
-          enhancing usability and sustainability in everything we do.{" "}
+          enhancing usability and sustainability in everything we do{" "}
         </p>
       </div>{" "}
     </div>

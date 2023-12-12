@@ -1,7 +1,11 @@
+"use client";
+import gsap from "gsap";
+import { ScrollToPlugin } from "gsap/all";
 import { Linden_Hill } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   return (
@@ -12,22 +16,34 @@ const Navbar = () => {
         </Link>
 
         <div>
-          <Link className="text-md px-10 py-3" href="/#score">
-            Kube Score
-          </Link>
-          <Link className="text-md px-10 py-3" href="/#solutions">
-            Solutions
-          </Link>
           <Link className="text-md px-10 py-3" href="/about">
             About
           </Link>
-          <span className="text-md px-10 py-3 relative group cursor-pointer">
-            Partner
+          <Link className="text-md px-10 py-3" href="/#build_card">
+            Solutions
+          </Link>
+          {/* <a
+            className="text-md px-10 py-3 cursor-pointer"
+            onClick={() => {
+              gsap.registerPlugin(ScrollToPlugin);
+              gsap.to(window, { duration: 1, scrollTo: "#score" });
+            }}
+          >
+            Solutions
+          </a> */}
+          <Link className="text-md px-10 py-3" href="/#score">
+            Kube Score
+          </Link>
+          <Link
+            href={"/#partnership"}
+            className="text-md px-10 py-3 relative group cursor-pointer "
+          >
+            Partnership
             <Partner />
-          </span>
+          </Link>
           <Link
             className="text-md mx-5 bg-[#6666FF] px-8 font-light rounded-md py-3"
-            href="/"
+            href="#partner"
           >
             Partner with us
           </Link>
@@ -38,8 +54,9 @@ const Navbar = () => {
 };
 
 const Partner = () => {
+  const router = useRouter();
   return (
-    <div className="absolute hidden group-hover:flex top-[70px] -left-[650px] bg-[#000000] w-[1000px] h-[200px] justify-between items-center  gap-5 p-10">
+    <div className="absolute delay-700 transition-all hidden group-hover:flex top-[45px] -left-[650px] bg-[#000000] w-[1000px] h-[200px] justify-between items-center  gap-5 p-10 ">
       <div className="">
         <h2 className="uppercase font-semibold">
           Providing innovative <br />
@@ -49,16 +66,33 @@ const Partner = () => {
       </div>
       <div className="">
         <ol className="flex flex-col ">
-          <li className="uppercase text-sm">
-            <span className="text-4xl relative -top-1 mr-2">.</span> Banks &
-            Lenders
+          <li className="uppercase text-sm  transition">
+            <span className="text-4xl relative -top-1 mr-2">.</span>{" "}
+            <span
+              onClick={() => {
+                router.push("/", { query: { service: "b2b" } });
+              }}
+              className="cursor-pointer hover:underline"
+            >
+              {" "}
+              Banks & Lenders
+            </span>
           </li>
-          <li className="uppercase text-sm">
-            <span className="text-4xl relative -top-1 mr-2">.</span> Digital
-            Platforms
+          <li className="uppercase text-sm  transition">
+            <span className="text-4xl relative -top-1 mr-2">.</span>{" "}
+            <span
+              onClick={() => {}}
+              className="cursor-pointer hover:underline "
+            >
+              {" "}
+              Digital Platforms
+            </span>
           </li>
-          <li className="uppercase text-sm">
-            <span className="text-4xl relative -top-1 mr-2">.</span> Fintechs
+          <li className="uppercase text-sm transition">
+            <span className="text-4xl relative -top-1 mr-2">.</span>{" "}
+            <span onClick={() => {}} className="cursor-pointer hover:underline">
+              Fintechs
+            </span>
           </li>
         </ol>
       </div>

@@ -10,8 +10,8 @@ const Hero = () => {
         </div>
         <div>
           <p className="font-light text-4xl leading-[1.25]">
-            Open Banking Risk Insight platform for <br /> Lenders and Lending
-            Platfrom for for SMBs
+            Open Banking Risk Insight Platform for <br /> Lenders and Lending
+            Platfrom for SMBs
           </p>
         </div>
         {/* <div className="animate-bounce">

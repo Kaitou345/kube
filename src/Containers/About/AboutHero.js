@@ -3,7 +3,7 @@ import { BsArrowDownCircle } from "react-icons/bs";
 
 const AboutHero = () => {
   return (
-    <div className="bg-[#00000055] flex flex-col items-center justify-center px-16 pb-10 h-[100vh]">
+    <div className="bg-[#00000011] flex flex-col items-center justify-center px-16 pb-10 h-[100vh]">
       <div className="max-w-[1600px] flex justify-between items-center flex-row-reverse gap-32">
         <div>
           <Image src="/logo.png" height={300} width={300} />

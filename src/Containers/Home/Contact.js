@@ -3,19 +3,19 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-[#121212] py-20">
+    <div id="partner" className="bg-[#121212] py-20">
       <div className="flex flex-col items-center justify-between gap-8">
         <div>
           <Image src="/interested.png" width={100} height={100} />
         </div>
         <div className="flex flex-col items-center justify-between gap-3">
           <h1 className=" text-2xl text-center font-semibold">
-            Leverage The Power Of Open Banking Data To Make More Informed Credit
-            Decisions.
+            Leverage the Power of Open Banking Data to Make More Informed Credit
+            Decision
           </h1>
           <h2 className="text-xl text-center opacity-60">
             You will get a response within 24 hours. We will explain in details
-            how we can help you .
+            how we can help you
           </h2>
         </div>
         <form

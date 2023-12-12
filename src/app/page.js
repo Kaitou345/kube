@@ -1,3 +1,4 @@
+"use client";
 import BuildCards from "@/Components/BuildCards";
 import Copyright from "@/Components/Copyright";
 import Navbar from "@/Components/Navbar";

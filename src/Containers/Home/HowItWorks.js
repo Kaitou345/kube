@@ -7,7 +7,7 @@ const HowItWorks = () => {
   const [currentTab, setCurrentTab] = useState("b2c");
   return (
     <div
-      id="solutions"
+      id="partnership"
       className="bg-[rgba(0,0,0,0.6)] backdrop-blur-md transition-all"
     >
       <div className="px-28 pt-20 pb-10 flex flex-col items-center">
@@ -81,7 +81,7 @@ const B2B = () => {
         >
           <h2 className="text-2xl font-semibold">Get the Widget</h2>
           <h3 className="text-lg text-left">
-            Deploy a lightweight SDK within minutes.
+            Deploy a lightweight SDK within minutes
           </h3>
         </button>
         <button
@@ -92,7 +92,7 @@ const B2B = () => {
         >
           <h2 className="text-2xl font-semibold">Integrate into Your App</h2>
           <h3 className="text-lg text-left">
-            Initialize the Kube SDK within your application.{" "}
+            Initialize the Kube SDK within your application{" "}
           </h3>
         </button>{" "}
         <button
@@ -174,7 +174,7 @@ const Saas = () => {
         >
           <h2 className="text-2xl font-semibold">Embedded scoring API</h2>
           <h3 className="text-lg text-left">
-            Get everything you need to become the bank your customers love.{" "}
+            Get everything you need to become the bank your customers love{" "}
           </h3>
         </button>{" "}
         <button

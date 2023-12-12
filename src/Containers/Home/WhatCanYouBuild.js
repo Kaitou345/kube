@@ -14,7 +14,7 @@ const WhatCanYouBuild = () => {
       .to("#card3", { yPercent: -100 }, "<")
       .to("#card1", { scale: 0.8 }, "<")
       .to("#card2", { scale: 0.9 }, "<")
-      .to("#card3", { yPercent: -200 });
+      .to("#card3", { yPercent: -180 });
     ScrollTrigger.create({
       animation: tl,
       trigger: "#build_card",

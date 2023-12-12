@@ -13,6 +13,7 @@ const BuiltFor = () => {
 
       .from("#text2", { yPercent: 200, opacity: 0 })
       .from("#text3", { yPercent: 200, opacity: 0 })
+      .from("#text4", { yPercent: 200, opacity: 0 })
       .to("#text1", {
         yPercent: 0,
       })
@@ -25,6 +26,13 @@ const BuiltFor = () => {
       )
       .to(
         "#text3",
+        {
+          yPercent: 0,
+        },
+        "<"
+      )
+      .to(
+        "#text4",
         {
           yPercent: 0,
         },
@@ -61,7 +69,7 @@ const BuiltFor = () => {
           <BsArrowRightCircle size={60} />
           <div className="relative">
             <div className="opacity-0 bg-[#E9E8FF] text-[#9747FF] px-5 py-4 text-4xl font-semibold">
-              <h1>High Conversion Rates</h1>
+              <h1>Faster Access to Finance</h1>
             </div>
             <div
               id="text1"
@@ -81,12 +89,18 @@ const BuiltFor = () => {
             >
               <h1>High Conversion Rates</h1>
             </div>
+            <div
+              id="text4"
+              className="absolute top-0 bg-[#E8F1FF]  rounded-2xl text-[#9747FF] px-5 py-4 text-4xl font-semibold"
+            >
+              <h1>Faster Access to Finance</h1>
+            </div>
           </div>
         </div>
         <div>
           <p className="w-3/5 text-4xl">
             Delivering real-time affordability scores and automating customer
-            onboarding via digital footprints.
+            onboarding via digital footprints
           </p>
         </div>
       </div>

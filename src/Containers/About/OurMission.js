@@ -10,7 +10,7 @@ const OurMission = () => {
             <div className="relative h-32 w-32">
               <Image src="/mission.png" layout="fill" objectFit="contain" />{" "}
             </div>
-            <h2 className="font-semibold text-4xl uppercase">OUR mission</h2>
+            <h2 className="font-semibold text-4xl ">Our Mission</h2>
             <p className="font-light text-md">
               Empower companies to offer <br />
               exceptional financial services to their <br />
@@ -22,7 +22,7 @@ const OurMission = () => {
             <div className="relative h-32 w-32">
               <Image src="/vision.png" layout="fill" objectFit="contain" />{" "}
             </div>
-            <h2 className="font-semibold text-4xl uppercase">OUR vision</h2>
+            <h2 className="font-semibold text-4xl ">Our Vision</h2>
             <p className="font-light text-md">
               Revolutionizing finance for limitless possibilities. <br />{" "}
               Empowering businesses, transforming lives <br /> through visionary

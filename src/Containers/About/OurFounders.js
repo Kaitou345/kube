@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { BsLinkedin } from "react-icons/bs";
 
 const OurFounders = () => {
   return (
@@ -17,10 +18,18 @@ const OurFounders = () => {
               <Image src={"/gazi.jpeg"} width={220} height={220} />{" "}
             </div>
             <div className="">
-              <h2 className="text-lg tracking-tight font-semibold uppercase mb-2">
+              <h2 className="flex text-lg tracking-tight font-semibold  mb-2">
                 Gazi Yar Mohammed
+                <a
+                  target="_blank"
+                  rel="norefferer"
+                  className="mx-2 text-2xl"
+                  href="https://www.linkedin.com/in/gaziyar/"
+                >
+                  <BsLinkedin />
+                </a>{" "}
               </h2>
-              <h3 className="text-lg tracking-tight font-semibold uppercase mb-2">
+              <h3 className="text-lg tracking-tight font-semibold  mb-2">
                 Co-founder, Kube Money
               </h3>
               <p className=" text-gray-200">
@@ -41,10 +50,18 @@ const OurFounders = () => {
               <Image src={"/zia.jpg"} width={220} height={220} />{" "}
             </div>
             <div className="">
-              <h2 className="text-lg tracking-tight font-semibold uppercase mb-2">
+              <h2 className=" flex text-lg tracking-tight font-semibold  mb-2">
                 Zia Hassan Siddique{" "}
+                <a
+                  target="_blank"
+                  rel="norefferer"
+                  className="mx-2 text-2xl"
+                  href="https://www.linkedin.com/in/ziahsiddique/"
+                >
+                  <BsLinkedin />
+                </a>{" "}
               </h2>
-              <h3 className="text-lg tracking-tight font-semibold uppercase mb-2">
+              <h3 className="text-lg tracking-tight font-semibold  mb-2">
                 Co-founder, Kube Money{" "}
               </h3>
               <p className=" text-gray-200">
