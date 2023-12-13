@@ -98,7 +98,7 @@ const BuiltFor = () => {
           </div>
         </div>
         <div>
-          <p className="w-3/5 text-4xl">
+          <p className="w-[600px] text-4xl">
             Delivering real-time affordability scores and automating customer
             onboarding via digital footprints
           </p>

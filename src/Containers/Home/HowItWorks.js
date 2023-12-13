@@ -39,7 +39,7 @@ const HowItWorks = () => {
               }`}
               onClick={() => setCurrentTab("b2b")}
             >
-              For Banks and Fintech{" "}
+              For Banks and Fintechs{" "}
             </button>
             <button
               className={`${
@@ -161,7 +161,7 @@ const Saas = () => {
           } flex flex-col gap-4 px-10 py-5 rounded-lg`}
           onClick={() => setCurrentImg("/saas_banks.png")}
         >
-          <h2 className="text-2xl font-semibold">Embedded lending API</h2>
+          <h2 className="text-2xl font-semibold">Embedded Lending API</h2>
           <h3 className="text-lg text-left">
             A cutting edge open banking and payments platform in the cloud{" "}
           </h3>
@@ -172,7 +172,7 @@ const Saas = () => {
           } flex flex-col gap-4 px-10 py-5 rounded-lg`}
           onClick={() => setCurrentImg("/saas_digital_platforms.png")}
         >
-          <h2 className="text-2xl font-semibold">Embedded scoring API</h2>
+          <h2 className="text-2xl font-semibold">Embedded Scoring API</h2>
           <h3 className="text-lg text-left">
             Get everything you need to become the bank your customers love{" "}
           </h3>

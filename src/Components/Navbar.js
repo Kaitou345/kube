@@ -72,7 +72,7 @@ const Partner = () => {
               onClick={() => {
                 router.push("/", { query: { service: "b2b" } });
               }}
-              className="cursor-pointer hover:underline"
+              className=" "
             >
               {" "}
               Banks & Lenders
@@ -80,17 +80,14 @@ const Partner = () => {
           </li>
           <li className="uppercase text-sm  transition">
             <span className="text-4xl relative -top-1 mr-2">.</span>{" "}
-            <span
-              onClick={() => {}}
-              className="cursor-pointer hover:underline "
-            >
+            <span onClick={() => {}} className="  ">
               {" "}
               Digital Platforms
             </span>
           </li>
           <li className="uppercase text-sm transition">
             <span className="text-4xl relative -top-1 mr-2">.</span>{" "}
-            <span onClick={() => {}} className="cursor-pointer hover:underline">
+            <span onClick={() => {}} className=" ">
               Fintechs
             </span>
           </li>

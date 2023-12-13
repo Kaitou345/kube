@@ -12,7 +12,7 @@ const Interested = () => {
             <Image width={100} height={100} src="/interested.png" />
           </div>
           <h1 className="text-5xl font-semibold  tracking-tight ">
-            Interested In{" "}
+            Interested in{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9747FF] to-[#F44848]">
               Kube
             </span>

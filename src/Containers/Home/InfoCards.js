@@ -17,7 +17,7 @@ const InfoCards = () => {
         />
         <InfoCard
           subtitle_first={"No Saas experience?"}
-          subtitle_second={"Don’t worry. We will take care"}
+          subtitle_second={"We've got this covered too"}
           desc={
             "Embedded credit: Your new growth-driver Drive growth, boost your bottom-line, and delight Your customers with the capital they need to thrive. Straight from your products from your product experience."
           }
