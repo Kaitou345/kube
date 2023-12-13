@@ -26,8 +26,8 @@ const InfoCards = () => {
           gradient={"b"}
         />
         <InfoCard
-          subtitle_first={"Reach more customers, "}
-          subtitle_second={"make better lending decisions"}
+          subtitle_first={"Attract more customers, "}
+          subtitle_second={"lend smarter"}
           desc={
             "Utilize Kube's marketplace to access qualified small to medium-sized businesses and make quick credit decisions using Kube's credit decision-making engine. Improve your credit models by using your own customer data in combination with external sources, which will help you outcompete your competitors."
           }
